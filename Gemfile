@@ -53,7 +53,7 @@ group :test do
   gem 'webdrivers'
 end
 group :production
-  gem 'pg'
+  gem 'pg', '~> 0.18.4'
   gem 'rails_12factor'
 end
 
